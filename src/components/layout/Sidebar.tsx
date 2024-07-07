@@ -4,7 +4,7 @@ import { navLinks } from "../../constants";
 
 const Sidebar = () => {
   return (
-    <aside className="bg-white flex flex-col gap-12 z-30 px-2 sm:px-12 py-10 sticky md:flex top-0 h-screen">
+    <aside className="bg-white flex flex-col gap-12 z-30 px-2 sm:px-12 py-10 sticky md:flex top-0 h-[100dvh]">
       <div className="ml-4 size-[45px] sm:size-[60px]">
         <img
           src={pp}
