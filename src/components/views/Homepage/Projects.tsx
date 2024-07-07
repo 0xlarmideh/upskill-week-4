@@ -40,7 +40,7 @@ export const Projects = () => {
   return (
     <div id="projects" data-aos="zoom-out">
       <ParagraphHeading heading="Recent Works" />
-      <div className="projects flex flex-col gap-4">{projectsMapped}</div>
+      <div className="projects grid lg:grid-cols-2 gap-4">{projectsMapped}</div>
     </div>
   );
 };
